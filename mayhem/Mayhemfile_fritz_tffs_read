@@ -1,0 +1,8 @@
+project: savantenvs/istoreos
+target: fritz_tffs_read
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fritz_tffs_read/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fritz_tffs_read -i @@ -a
+    timeout: 10

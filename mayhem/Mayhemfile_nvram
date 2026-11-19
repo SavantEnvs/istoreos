@@ -1,0 +1,9 @@
+project: savantenvs/istoreos
+target: nvram
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/nvram/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_nvram
+    libfuzzer: true
+    timeout: 10

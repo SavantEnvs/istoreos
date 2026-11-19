@@ -1,0 +1,5 @@
+Image size: 4712
+       MD5: 02397a393e5502885d1f459d7af92057
+ Partition: partition-table (0x200 - 0x210)
+ Partition: os-image (0x210 - 0x250)
+ Partition: file-system (0x250 - 0x268)

@@ -1,0 +1,9 @@
+project: savantenvs/istoreos
+target: bcm4908img
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bcm4908img/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_bcm4908img
+    libfuzzer: true
+    timeout: 10

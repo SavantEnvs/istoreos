@@ -1,0 +1,10 @@
+boardtype=0x0646
+lan_ipaddr=192.168.1.1
+sdram_config=0x8000
+sdram_init=0x1234
+sdram_ncdl=0x00000062
+sdram_refresh=0x0419
+wl0_ssid=OpenWrt
+get lan_ipaddr: 192.168.1.1
+after set: 10.0.0.1
+after unset: absent

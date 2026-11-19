@@ -1,0 +1,8 @@
+project: savantenvs/istoreos
+target: jboot_config_read
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/jboot_config_read/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/jboot_config_read -i @@ -m -e /dev/null
+    timeout: 10

@@ -1,0 +1,3 @@
+bootfs offset:	0x0
+rootfs offset:	0x20000
+Checksum:	0xf3cd454e
